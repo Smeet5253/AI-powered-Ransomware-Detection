@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "model_loaded": true,
+  "feature_names": [
+    "Machine",
+    "DebugSize",
+    "DebugRVA",
+    "MajorImageVersion",
+    "MajorOSVersion",
+    "ExportRVA",
+    "ExportSize",
+    "IatVRA",
+    "MajorLinkerVersion",
+    "MinorLinkerVersion",
+    "NumberOfSections",
+    "SizeOfStackReserve",
+    "DllCharacteristics",
+    "ResourceSize",
+    "BitcoinAddresses"
+  ],
+  "model_file": "./backend/ai_ml/models\\ransomware_model.pkl",
+  "train_stats": {
+    "accuracy": 0.9963991357925902,
+    "precision": 0.9963092821553792,
+    "recall": 0.9953908554572272,
+    "f1": 0.9958498570506318,
+    "auc": 0.9997940384244043,
+    "train_samples": 49988,
+    "test_samples": 12497,
+    "benign_count": 27118,
+    "malicious_count": 35367
+  },
+  "top_features": {
+    "DebugSize": 0.4485367317151297,
+    "DllCharacteristics": 0.3126057671636349,
+    "ResourceSize": 0.0738425818027088,
+    "Machine": 0.06010223787193916,
+    "MajorOSVersion": 0.03202531765673571,
+    "MajorLinkerVersion": 0.018662307709445696,
+    "NumberOfSections": 0.01738108409108158,
+    "DebugRVA": 0.013364100096772484,
+    "IatVRA": 0.006936110723583738,
+    "MajorImageVersion": 0.006831915890371875
+  }
+}

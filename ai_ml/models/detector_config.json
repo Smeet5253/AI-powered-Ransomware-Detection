@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "train_date": "2025-04-19T15:15:13.420398",
+  "feature_importances": {
+    "Machine": 0.06010223787193916,
+    "DebugSize": 0.4485367317151297,
+    "DebugRVA": 0.013364100096772484,
+    "MajorImageVersion": 0.006831915890371875,
+    "MajorOSVersion": 0.03202531765673571,
+    "ExportRVA": 0.0020737658248978024,
+    "ExportSize": 0.004250177591926837,
+    "IatVRA": 0.006936110723583738,
+    "MajorLinkerVersion": 0.018662307709445696,
+    "MinorLinkerVersion": 0.0017057066697743638,
+    "NumberOfSections": 0.01738108409108158,
+    "SizeOfStackReserve": 0.0013045356841815473,
+    "DllCharacteristics": 0.3126057671636349,
+    "ResourceSize": 0.0738425818027088,
+    "BitcoinAddresses": 0.0003776595078156633
+  },
+  "train_stats": {
+    "accuracy": 0.9963991357925902,
+    "precision": 0.9963092821553792,
+    "recall": 0.9953908554572272,
+    "f1": 0.9958498570506318,
+    "auc": 0.9997940384244043,
+    "train_samples": 49988,
+    "test_samples": 12497,
+    "benign_count": 27118,
+    "malicious_count": 35367
+  },
+  "model_config": {
+    "n_estimators": 200,
+    "max_depth": 10,
+    "learning_rate": 0.1
+  }
+}
